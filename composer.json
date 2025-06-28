@@ -1,24 +1,24 @@
 {
-    "name": "php-contrib/serializer",
-    "description": "Supports serialization interoperability.",
-    "type": "library",
-    "require": {
-        "php": ">=7.1"
-    },
-    "config": {
-	"sort-packages": true
-    },
-    "scripts": {
-	"lint": "phpcs --standard=PSR1,PSR12 ./src",
-	"lint-fix": "phpcbf --standard=PSR1,PSR12 ./src"
-    },
-    "require-dev": {
-        "squizlabs/php_codesniffer": "^3.13"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "PhpContrib\\Serializer\\": "src/"
-        }
+  "name": "php-contrib/serializer",
+  "description": "Supports serialization interoperability.",
+  "type": "library",
+  "require": {
+    "php": ">=7.1"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "lint": "phpcs --standard=PSR1,PSR12 ./src",
+    "lint-fix": "phpcbf --standard=PSR1,PSR12 ./src"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.13"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PhpContrib\\Serializer\\": "src/"
     }
+  }
 }
